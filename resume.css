@@ -99,7 +99,7 @@ section {
   width: 8em;
   border-radius: 50%;
   position: relative;
-  left: 20em;
+  left: 0em;
   margin-top: -3em;
   margin-bottom: 0em;
   border: 2px solid white;
@@ -124,8 +124,6 @@ section {
 #about-para {
   width: 70%;
   position: relative;
-  left: -10%;
-  top: 20%;
   text-align: justify;
   font-size: 1.15em;
 }
