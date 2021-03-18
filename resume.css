@@ -99,7 +99,7 @@ section {
   width: 8em;
   border-radius: 50%;
   position: relative;
-  left: 20em;
+  left: 0em;
   margin-top: -3em;
   margin-bottom: 0em;
   border: 2px solid white;
@@ -109,24 +109,12 @@ section {
 .itl {
   color: brown;
 }
-.gif-parent {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  width: 80%;
-  height: 70%;
-  /*border: 2px solid black;*/
-  margin-top: 1em;
-  justify-content: space-around;
-  align-items: center;
-}
 
 #about-para {
   width: 70%;
   position: relative;
   text-align: justify;
   top: 3em;
-  left: -4em;
   font-size: 1.15em;
 }
 
