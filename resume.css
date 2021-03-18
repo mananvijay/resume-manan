@@ -99,7 +99,7 @@ section {
   width: 8em;
   border-radius: 50%;
   position: relative;
-  left: 0em;
+  left: 20em;
   margin-top: -3em;
   margin-bottom: 0em;
   border: 2px solid white;
@@ -125,6 +125,8 @@ section {
   width: 70%;
   position: relative;
   text-align: justify;
+  top: 3em;
+  left: -4em;
   font-size: 1.15em;
 }
 
