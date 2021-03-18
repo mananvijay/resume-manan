@@ -99,7 +99,7 @@ section {
   width: 8em;
   border-radius: 50%;
   position: relative;
-  left: 0em;
+  left: 20em;
   margin-top: -3em;
   margin-bottom: 0em;
   border: 2px solid white;
@@ -123,7 +123,11 @@ section {
 
 #about-para {
   width: 70%;
-  font-size: 1em;
+  position: relative;
+  left: -10%;
+  top: 20%;
+  text-align: justify;
+  font-size: 1.15em;
 }
 
 /*.gif img:nth-child(2n){
@@ -567,7 +571,7 @@ section:nth-child(2n + 1) {
   position: relative;
   left: -5px;
   font-size: 0.5em;
-  top: 28px;
+  top: 0em;
 }
 
 .para1-ed {
@@ -583,9 +587,9 @@ section:nth-child(2n + 1) {
 .timeline-divider1 {
   position: absolute;
   width: 0%;
-  height: 70%;
+  height: 72%;
   left: 50%;
-  top: 335%;
+  top: 337.5%;
   border: 2px solid orange;
 }
 
