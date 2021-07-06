@@ -41,6 +41,8 @@ section {
 .horizontal-list li a {
   color: white;
   text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
   font-size: 0.5em;
   transition: color 0.5s, border-bottom 4s;
 }
@@ -57,7 +59,8 @@ section {
 
 #heading {
   font-size: 3rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.3rem;
+  font-family: 'Bebas Neue', cursive;
   font-weight: 700;
   color: white;
   position: relative;
@@ -112,6 +115,8 @@ section {
 
 #about-para {
   width: 70%;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
   position: relative;
   text-align: justify;
   top: 3em;
@@ -130,7 +135,8 @@ section {
 }*/
 
 section:nth-child(2n) {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-color: #c9d1d9;
   /*background: linear-gradient(#f4f562, #f0a00a);*/
 }
 section:nth-child(2n + 1) {
@@ -160,6 +166,8 @@ section:nth-child(2n + 1) {
 
 .sk-marg {
   display: inline-block;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
   margin-bottom: 3em;
   margin-top: 0.5em;
 }
@@ -167,6 +175,7 @@ section:nth-child(2n + 1) {
 .skill-lang {
   width: 30%;
   height: 1em;
+  border: whitesmoke 1px solid;
   border-radius: 10px;
   background-color: lightgrey;
   margin-bottom: 5vh;
@@ -174,7 +183,9 @@ section:nth-child(2n + 1) {
 }
 .lang-text {
   position: relative;
-  left: 2em;
+  font-family: 'Chakra Petch', sans-serif;
+  font-style: italic;
+  left: 8em;
   top: -0.5em;
   color: white;
   font-size: 0.5em;
@@ -233,6 +244,8 @@ section:nth-child(2n + 1) {
 
 .pf-heading {
   color: indigo;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
 }
 
 .portfolio-parent {
@@ -282,6 +295,8 @@ section:nth-child(2n + 1) {
 
 .contact-heading {
   color: white;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
   position: relative;
   text-align: center;
 }
@@ -306,6 +321,7 @@ section:nth-child(2n + 1) {
   width: 45%;
   height: 100%;
   margin-top: 1em;
+  font-family: 'Chakra Petch', sans-serif;
   /*top: -10%;*/
   /*left: 15%;*/
 }
@@ -341,7 +357,7 @@ section:nth-child(2n + 1) {
 
 .send-msg {
   color: white;
-  font-family: monaco;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .ic {
@@ -359,7 +375,7 @@ section:nth-child(2n + 1) {
 .on-top a button {
   color: white;
   text-decoration: none;
-  font-family: monaco;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .on-top button:hover {
@@ -367,6 +383,8 @@ section:nth-child(2n + 1) {
 }
 
 .exp-heading {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
   color: indigo;
   position: relative;
   margin-top: 5px;
@@ -443,10 +461,12 @@ section:nth-child(2n + 1) {
   font-size: 0.8em;
   text-align: center;
   position: relative;
+  color: teal;
   margin-bottom: 10px;
   left: 65px;
   top: -23px;
-  font-family: monaco;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
 }
 
 .cp-logo1 {
@@ -465,40 +485,52 @@ section:nth-child(2n + 1) {
   margin-bottom: 10px;
   left: 65px;
   top: -23px;
-  font-family: monaco;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .para1 {
-  font-size: 0.5em;
+  font-size: 0.6em;
   position: relative;
   /*text-align: center;*/
-  left: 25px;
+  color: olive;
+  left: 130px;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .date {
   position: relative;
-  font-size: 0.4em;
+  font-size: 0.5em;
   left: 70%;
   top: 10px;
+  color: olive;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .para2 {
   font-size: 0.5em;
   position: relative;
   /*text-align: center;*/
+  color: olive;
   left: 25px;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .date2 {
   position: relative;
   top: 10px;
   left: 230px;
+  font-size: 1em;
+  color: olive;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .para3 {
   font-size: 0.5em;
   position: relative;
   left: 30px;
+  color: olive;
+  font-size: 0.5em;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .date3 {
@@ -506,6 +538,9 @@ section:nth-child(2n + 1) {
   font-size: 0.4em;
   top: 15px;
   left: 70%;
+  font-size: 0.5em;
+  color: olive;
+  font-family: 'Chakra Petch', sans-serif;
   /*overflow: scroll;*/
 }
 
@@ -513,7 +548,9 @@ section:nth-child(2n + 1) {
   position: relative;
   top: 15px;
   left: 20px;
-  overflow: scroll;
+  font-size: 1em;
+  color: olive;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .timeline2 {
@@ -560,16 +597,27 @@ section:nth-child(2n + 1) {
   left: -5px;
   font-size: 0.5em;
   top: 0em;
+  font-family: 'Chakra Petch', sans-serif;
+  color: midnightblue;
+}
+
+.cp-name1{
+  color: brown;
+  letter-spacing: 3px;
 }
 
 .para1-ed {
   font-size: 0.5em;
+  color: midnightblue;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .place {
   position: relative;
   left: 79px;
   top: -8px;
+  color: brown;
+  letter-spacing: 3px;
 }
 
 .timeline-divider1 {
@@ -741,6 +789,7 @@ section:nth-child(2n + 1) {
     top: -0em;
     overflow-wrap: break-word;
     font-size: 0.5em;
+    color: orange;
   }
 
   .cp-logo1 {
@@ -754,12 +803,10 @@ section:nth-child(2n + 1) {
 
   .cp-name1 {
     font-size: 0.5em;
-    /*text-align: center;*/
     position: relative;
-    /*margin-bottom: 10px;*/
     left: 12%;
     top: -15px;
-    font-family: monaco;
+    color: orange;
   }
 
   .date5 {
@@ -789,4 +836,15 @@ section:nth-child(2n + 1) {
     height: 10px;
     border-radius: 50%;
   }
+}
+
+.proimg{
+  border-radius: 10px;
+  margin-top: 40%;
+}
+.proname{
+  color:#184e68;
+  font-style: italic;
+  text-align: center;
+  padding: 5px;
 }
